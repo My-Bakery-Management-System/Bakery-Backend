@@ -14,7 +14,7 @@ import { notFoundHandler } from "./middlewares/notFound.js";
 const app = express();
 
 //Port comes from .env file//
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 // import errorHandling from './middlewares/errorHandling.js'/ Middleware to parse JSON//
 app.use(express.json());
