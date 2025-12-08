@@ -22,7 +22,7 @@ app.use(express.json());
 //Enabling CORS for frontend URLs//
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: ["http://localhost:5173", "http://localhost:5174","https://bakerymanager.netlify.app/"],
     credentials: true,
   })
 );
